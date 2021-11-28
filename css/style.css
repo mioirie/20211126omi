@@ -174,28 +174,34 @@ select {
 
 .parent {
   position: relative;
-  max-width: 1500px;
-  min-width: 1000px;
-  width: 100%;
-  height: auto;
-  margin: 20px;
+  width: 100vh;
+  height: 100vh;
+  margin: 10px;
+  background-color: rgba(175, 93, 93, 0.3);
+}
+
+.copy {
+  position: absolute;
+  top: 50%;
+  margin-left: 20px;
 }
 
 .float {
   color: black;
-  font-size: 40px;
+  font-size: 60px;
 }
+
 .square {
   position: absolute;
-  width: 75%;
+  width: 70vh;
   height: 150px;
   background: navy;
 }
 
 .coachtech {
   position: absolute;
-  left: 10px;
-  top: 10px;
+  left: 20px;
+  top: 20px;
   color: navy;
   font-size: 20px;
 }
@@ -204,15 +210,13 @@ select {
   position: absolute;
   color: navy;
   font-size: 15px;
-  margin: 0 0 0 auto;
-  position: absolute;
 }
 
 .firstview_img {
   position: absolute;
-  width: 50%;
-  height: 50%;
-  right: 10px;
-  top: 10px;
-  margin-top: 20px;
+  box-sizing: border-box;
+  height: auto;
+  right: 30vh;
+  top: 7vh;
+  padding-right: 30px;
 }
