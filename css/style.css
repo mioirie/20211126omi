@@ -175,7 +175,6 @@ select {
 .parent {
   position: relative;
   width: 100vw;
-  height: 100vh;
   margin: 10px;
 }
 
@@ -217,7 +216,7 @@ select {
 
 .firstview_img {
   position: absolute;
-  bottom: 30vh;
+  top: 30vh;
   right: 0;
   width: 50%;
 }
