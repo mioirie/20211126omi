@@ -180,17 +180,17 @@ select {
 }
 
 .coachtech {
-  margin-top: 20px;
-  margin-left: 20px;
+  padding-top: 50px;
+  padding-left: 20px;
   color: navy;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .title {
   text-align: right;
-  margin-right: 50px;
+  margin-right: 70px;
   color: navy;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .copy {
@@ -212,10 +212,12 @@ select {
 }
 
 .firstview_img img {
-  width: 80%;
+  width: 90%;
 }
+
 .firstview_img {
   position: absolute;
   bottom: 30vh;
-  left: 50vw;
+  right: 0;
+  width: 50%;
 }
